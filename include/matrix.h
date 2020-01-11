@@ -7,6 +7,6 @@ using namespace std;
 #ifndef MATRIX
 #define MATRIX
 
-vector<vector<int> > matrix(vector <string> original,
-    vector <string> desired);
+vector<vector<int> > matrix(vector <char> original,
+    vector <char> desired);
 #endif

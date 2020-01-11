@@ -31,7 +31,6 @@ int main(int argc, char *argv[]) {
 		desired.push_back(letter);
 		
 	}
-
-
-	vector<vector<int> > newmatrix = matrix(original, desired);			
+	vector<vector<int> > newmatrix = matrix(original, desired);		
+	return path(newmatrix);
 }
