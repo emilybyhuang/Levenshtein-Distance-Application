@@ -1,8 +1,13 @@
-Replace 0, 's'
-Replace 1, 'e'
-Replace 2, 's'
-Replace 3, 'q'
-Replace 4, 'u'
+Replace 0, 'g'
+Insert 4
+Insert 5
+Insert 6
 Insert 8
-Insert 9
-Replace 10, 'l'
+Replace 9, 'o'
+Replace 13, 'l'
+Replace 19, 't'
+Replace 21, 'r'
+Replace 23, 'p'
+Delete 25
+Delete 25
+Delete 25
