@@ -29,8 +29,12 @@ int main(int argc, char *argv[]) {
 		file >> letter;
 		cout << "inserting bookauthor: " << letter << endl;
 		desired.push_back(letter);
-		
+		if(file.peek() == '\n') break;
 	}
-	vector<vector<int> > newmatrix = matrix(original, desired);		
-	return path(newmatrix);
+	vector<vector<int> > newmatrix = matrix(original, desired);	
+	string commandString = path(newmatrix, original, desired);
+	ofstream outputFile(argv[2]);
+    //outputFile.open(argv[2]);
+    outputFile << commandString;
+    outputFile.close();
 }
