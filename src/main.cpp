@@ -18,13 +18,13 @@ int main(int argc, char *argv[]) {
 	if (!file.is_open()) cout<< "Could not open file\n";
 	//while(!file.eof()){
 	//cout << "old" << endl;
-	while(file.peek() != '\n' && !file.eof()){
+	while(((file.peek() >= 65 && file.peek()<=90) || (file.peek() >= 97 && file.peek()<=122 ))&& !file.eof()){
 		file >> letter; 
 		cout << "inserting bookauthor: " << letter << endl;
 		original.push_back(letter);
-				
+		if(file.peek() == '\n') break;
 	}
-	//cout << "new" << endl;
+	cout << "new" << endl;
 	while(!file.eof()){
 		file >> letter;
 		cout << "inserting bookauthor: " << letter << endl;

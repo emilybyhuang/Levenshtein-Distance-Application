@@ -1,26 +1,8 @@
-Delete 0
-Delete 0
-Delete 0
-Delete 0
-Delete 0
-Delete 0
-Delete 0
-Delete 0
-Delete 0
-Delete 0
-Delete 0
-Delete 0
-Delete 0
-Delete 0
-Delete 0
-Delete 0
-Delete 0
-Delete 0
-Delete 0
-Delete 0
-Delete 0
-Delete 0
-Delete 0
-Delete 0
-Delete 0
-Delete 0
+Replace 0, 's'
+Replace 1, 'e'
+Replace 2, 's'
+Replace 3, 'q'
+Replace 4, 'u'
+Insert 8
+Insert 9
+Replace 10, 'l'
