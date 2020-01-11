@@ -17,14 +17,14 @@ int main(int argc, char *argv[]) {
 	fstream file(argv[1]);
 	if (!file.is_open()) cout<< "Could not open file\n";
 	//while(!file.eof()){
-	cout << "old" << endl;
+	//cout << "old" << endl;
 	while(file.peek() != '\n' && !file.eof()){
 		file >> letter; 
 		cout << "inserting bookauthor: " << letter << endl;
 		original.push_back(letter);
 				
 	}
-	cout << "new" << endl;
+	//cout << "new" << endl;
 	while(!file.eof()){
 		file >> letter;
 		cout << "inserting bookauthor: " << letter << endl;

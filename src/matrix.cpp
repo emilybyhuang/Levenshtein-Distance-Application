@@ -20,7 +20,7 @@ vector<vector<int> > matrix(vector <char> original, vector <char> desired){
         for (auto j = 1; j <= desired.size(); j++) {
             int cost = (original[i] == desired[j]) ? 0 : 1;
             int src1 = matrix[i-1][j] + 1;
-            int src2 = matrix[i][j-1] + 1;
+            int src2 = row[j-1] + 1;
             int src3 = matrix[i-1][j-1] + cost;
             row.push_back(min(min(src1, src2), src3));
         }

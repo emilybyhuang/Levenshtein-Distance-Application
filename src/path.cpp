@@ -5,9 +5,9 @@
 #include<string>
 using namespace std;
 
-int path(vector<vector<int> > matrix) {
-    vector<string> original;
-    vector<string> desired;
+int path(vector<vector<int> > matrix, vector<char> original,
+    vector<char> desired) {
+    
     int i = original.size();
     int j = desired.size();
     string command;

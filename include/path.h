@@ -8,5 +8,6 @@ using namespace std;
 
 #ifndef PATH
 #define PATH
-int path(vector<vector<int> > matrix);
+int path(vector<vector<int> > matrix, vector<char> original,
+    vector<char> desired);
 #endif
